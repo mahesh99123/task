@@ -1,0 +1,6 @@
+chef generate cookbook cookbookname
+
+knife upload cookbooks
+
+knife node run_list add chef-node 'task'
+
